@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motueka B&B</title>
+    <!-- Link to your CSS file if you have one -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <div class="topnav">
+        <a href="privacypolicy.html">Privacy Policy</a>
+        <a href="makeabooking.html">Make Booking</a>
+        <a href="showbooking_detailsview.html">Booking Details View</a>
+        <a href="edit_booking.html">Edit Booking</a>
+        <a href="delete_booking.html">Delete Booking</a>
+        <a href="#" class="exit-button" onclick="window.close()">Exit</a>
+    </div>
+    <!-- Header section -->
+    <header>
+        <h1>your home away form home</h1>
+        <nav>
+            <ul>
+                <li><a href="#section1">Section 1</a></li>
+                <li><a href="#section2">Section 2</a></li>
+                <!-- Add more navigation links as needed -->
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content sections -->
+    <section id="section1">
+        <h2></h2>
+        <p>Your content for Section 1 goes here.</p>
+    </section>
+
+    <section id="section2">
+        <h2>Section 2</h2>
+        <p>Your content for Section 2 goes here.</p>
+    </section>
+
+    <!-- Add more sections and content as needed -->
+
+    <!-- Footer section -->
+    <footer>
+        <p>&lt;&lt;&lt; &copy; <a href="about.html">Motueka.B&B</a>&gt;&gt;&gt;</p>
+        <p><a href="#">Back to top</a></p>
+    </footer>
+  
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            flatpickr(".flatpickr", {
+                enableTime: false, // Change to 'true' if you want to include time selection
+                dateFormat: "Y-m-d",
+                minDate: "today",
+            });
+          });    
+    </script>
+</body>
+</html>
