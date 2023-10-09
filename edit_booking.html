@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Edit Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1 class="heading url-heading">Edit Booking</h1>
+    </div>
+
+
+    <div class="topnav">
+        <a href="privacypolicy.html">Privacy Policy</a>
+        <a href="makeabooking.html">Make Booking</a>
+        <a href="showbooking_detailsview.html">Booking Details View</a>
+        <a href="delete_booking.html">Delete Booking</a>
+        <a href="#" class="exit-button" onclick="window.close()">Exit</a>
+    </div>
+    <div>
+        <form method="POST" action="edit_booking.php">
+            <label for="bookingNumber">Booking Number:</label>
+            <input type="text" id="bookingNumber" name="bookingNumber" required>
+            <input type="submit" value="Edit">
+        </form>
+    </div>
+
+    <footer>
+        <p>&lt;&lt;&lt; &copy; <a href="about.html">Motueka.B&B</a>&gt;&gt;&gt;</p>
+        <p><a href="list_currentbookings.php">Back to List of Current Bookings</a></p>
+    </footer>
+</body>
+</html>
